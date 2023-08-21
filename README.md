@@ -1,6 +1,6 @@
 # Netlify
 
-https://tangerine-zuccutto-4a2964.netlify.app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc6cc4f8-b8f0-4aae-9966-f0f436c4fe5f/deploy-status)](https://app.netlify.com/sites/tangerine-zuccutto-4a2964/deploys)
 
 # React + Vite
 
