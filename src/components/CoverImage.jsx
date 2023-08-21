@@ -30,7 +30,7 @@ function CoverImage({ ipData, position }) {
           center={position}
           zoom={13}
           scrollWheelZoom={false}
-          style={{ width: "100%", height: "600px" }}
+          style={{ width: "100%", minHeight: "80vh" }}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
