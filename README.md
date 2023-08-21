@@ -1,6 +1,6 @@
 # Netlify
 
-https://app.netlify.com/sites/tangerine-zuccutto-4a2964/overview
+https://tangerine-zuccutto-4a2964.netlify.app
 
 # React + Vite
 
