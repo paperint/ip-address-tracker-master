@@ -6,9 +6,10 @@ function InputIP({ ipData, setIpData, setPosition }) {
   const [ip, setIp] = useState("");
 
   const getIP = async (ip) => {
+    const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
     try {
       const result = await axios.get(
-        `https://geo.ipify.org/api/v2/country,city?apiKey=at_J6HB3PIh66Z7QvzVBuXnAd9yoO6tP&ipAddress=${ip}`
+        `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${ip}`
       );
       console.log(result.data);
       setIpData(result.data);
